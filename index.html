@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main class="main-class">
+<form action="send.php"  method="post">
+    <ul>
+<li>
+    <label>
+        Nombre
+        <input required placeholder="Aldara" name="nombre" type="text">
+    </label> </li>
+    <li>
+    <label>
+        Apelido
+        <input required placeholder="de Toro" name="apellido" type="text">
+    </label> </li>
+    <li>
+    <label>
+        E-mail
+        <input required placeholder="nel@appventures.es" name="email" type="text">
+    </label> </li>
+    <li>
+        edad 
+        <input required placeholder="26" name="edad" type="number">
+    </li>
+    <li>
+        Nº de teléfono 
+        <input required placeholder="6444765467" name="telefono" type="number">
+    </li>
+    <li>
+        <fieldset>
+            <legend>Cal é teu xénero?</legend>
+            <label><input type="radio" name="sexo" value="masculino">masculino </label>
+            <label><input type="radio" name="sexo" value="feminino">feminino </label>
+        </fieldset>
+
+        
+    </li>
+</ul>
+<button>Enviar</button>
+</form>
+    </main>
+    
+</body>
+</html>
